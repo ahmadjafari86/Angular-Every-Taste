@@ -10,14 +10,15 @@
 </div>
 <div class="row">
   <div class="col-xs-12">
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+    <div class="dropdown" >
+      <button class="btn btn-primary dropdown-toggle" type="button"
+              id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
         Manage recipe
       </button>
-      <ul class="dropdown-menu">
-        <li><a href="#">To shopping list</a></li>
-        <li><a href="#">Edit recipe</a></li>
-        <li><a href="#">Delete recipe</a></li>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">To shopping list</a></li>
+        <li><a class="dropdown-item"  href="#">Edit recipe</a></li>
+        <li><a class="dropdown-item"  href="#">Delete recipe</a></li>
       </ul>
     </div>
   </div>
